@@ -1,7 +1,41 @@
-header {
-    height: 150px;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-nav {
-    float: right;
+/* header section */
+header {
+    height: fit-content;
+    background-color: aquamarine;
 }
+
+header h1 {
+    clear: both;
+    font-size: 300%;
+    text-align: center;
+}
+
+/* nav links */
+
+#nav-menu {
+    clear: both;
+    list-style-type: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+#nav-menu li {
+    display: inline;
+    padding-bottom: 2px;
+}
+
+.nav-link {
+    display: inline;
+    height: 33%;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+/*main body content*/
