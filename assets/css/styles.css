@@ -6,23 +6,26 @@
 
 /* header section */
 header {
-    height: fit-content;
+    height: 100px;
     background-color: aquamarine;
 }
 
 header h1 {
-    clear: both;
+    float: left;
     font-size: 300%;
-    text-align: center;
+    margin-left: 20px;
+    line-height: 100px;
+    vertical-align: middle;
 }
 
 /* nav links */
 
 #nav-menu {
-    clear: both;
+    float: right;
     list-style-type: none;
     text-align: center;
-    line-height: 50px;
+    line-height: 100px;
+    margin-right: 20px;
 }
 
 #nav-menu li {
@@ -39,3 +42,28 @@ header h1 {
 }
 
 /*main body content*/
+
+/* media query*/
+
+@media screen and (max-width: 768px) {
+
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        float: none;
+        clear: both;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    #nav-menu {
+        margin: 0;
+        float: none;
+        clear: both;
+        text-align: center;
+        line-height: 50px;
+    }
+}
