@@ -4,10 +4,15 @@
     border: none;
 }
 
+body {
+    color: #1a2930;
+    background-color: #fafafa;
+}
+
 /* header section */
 header {
     height: 100px;
-    background-color: aquamarine;
+    background-color: #fafafa;
 }
 
 header h1 {
@@ -42,6 +47,16 @@ header h1 {
 }
 
 /*main body content*/
+
+#main-img {
+    width: 100%;
+    height: auto;
+}
+
+#main-img > img {
+    width: 100%;
+    position: fixed;
+}
 
 /* media query*/
 
