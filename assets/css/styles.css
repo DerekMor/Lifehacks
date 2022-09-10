@@ -118,4 +118,13 @@ footer {
         text-align: center;
         line-height: 50px;
     }
+
+    .social-networks li {
+        width: 49.5%;
+        font-size: 50px;
+    }
+
+    .icons {
+        width: 50%;
+    }
 }
