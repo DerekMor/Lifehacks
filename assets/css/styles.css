@@ -63,10 +63,28 @@ header h1 {
 
 footer {
     height: 100px;
+    width: 100%;
+}
+
+.social-networks {
+    width: 100%;
 }
 
 .social-networks li {
+    font-size: 75px;
+    display: inline-block;
+    width: 24.5%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.icons {
+    width: 25%;
     display: inline;
+}
+
+.icons a {
+    color: inherit;
 }
 
 /* media query*/
