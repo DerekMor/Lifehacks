@@ -59,12 +59,53 @@ header h1 {
 #main-img {
     width: 100%;
     height: 100%;
-    clear: both;
+    position: relative;
 }
 
 #main-img > img {
     width: 100%;
     height: auto;
+    filter: grayscale(60%);
+    filter: brightness(60%);
+}
+
+/* text overlay */
+
+#left-text-block {
+    color: #fafafa;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 30%;
+    padding: 2px 2px 2px 2px;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    font-weight: 600;
+    font-size: 120%;
+}
+
+#right-text-block {
+    color: #fafafa;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 30%;
+    padding: 2px 2px 2px 2px;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    font-weight: 600;
+    font-size: 120%;
+}
+
+#bottom-text-block {
+    color: #fafafa;
+    position: absolute;
+    bottom: 30%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+    font-weight: 600;
+    font-size: 120%;
 }
 
 /* footer */
@@ -119,6 +160,14 @@ footer {
         line-height: 50px;
     }
 
+    #left-text-block, #right-text-block {
+        font-size: 100%;
+    }
+
+    #bottom-text-block {
+        visibility: hidden;
+    }
+
     .social-networks li {
         width: 49.5%;
         font-size: 50px;
@@ -126,5 +175,12 @@ footer {
 
     .icons {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 420px){
+
+    #left-text-block, #right-text-block {
+        font-size: 80%;
     }
 }
