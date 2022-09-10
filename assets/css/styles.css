@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Source+Sans+Pro:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,11 @@
 body {
     color: #1a2930;
     background-color: #fafafa;
+    font-family: "source sans pro", serif;
+}
+
+h1,h2 {
+    font-family: "libre franklin", serif;
 }
 
 /* header section */
@@ -44,6 +51,7 @@ header h1 {
     text-decoration: none;
     color: inherit;
     padding: 10px;
+    font-size: 125%;
 }
 
 /*main body content*/
