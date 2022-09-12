@@ -78,7 +78,6 @@ header h1 {
     top: 5%;
     width: 30%;
     padding: 2px 2px 2px 2px;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
     font-weight: 600;
     font-size: 120%;
 }
@@ -90,7 +89,6 @@ header h1 {
     top: 5%;
     width: 30%;
     padding: 2px 2px 2px 2px;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
     font-weight: 600;
     font-size: 120%;
 }
@@ -103,7 +101,6 @@ header h1 {
     width: 50%;
     text-align: center;
     padding: 2px 2px 2px 2px;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
     font-weight: 600;
     font-size: 120%;
 }
@@ -148,6 +145,32 @@ footer {
 #prod-img {
     height: 600px;
     background: url(../images/productivity.avif) no-repeat center center;
+    display: block;
+    text-align: center;
+    filter: brightness(60%);
+}
+
+#prod-img form {
+    filter: brightness(100%);
+}
+
+form {
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+label {
+    display: block;
+    color: #fafafa;
+    font-weight: 1000;
+}
+
+input {
+    display: block;
 }
 
 /* media query*/
