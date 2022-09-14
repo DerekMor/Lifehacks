@@ -200,9 +200,39 @@ input {
 /* Todays Hack */
 
 #body-content {
-    height: 600px;
-    border: 10px solid #1a2930;
+    height: fit-content;
+    border: 50px solid #1a2930;
+    border-radius: 10px;
+    padding: 50px;
 }
+
+#content-block1 img, #content-block3 img {
+    height: 200px;
+    width: auto;
+    float: left;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+#content-block1 p, #content-block2 p, #content-block3 p {
+    font-size: 150%;
+}
+
+#content-block2 img {
+    height: 200px;
+    width: auto;
+    float: right;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+h2, h3 {
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15PX;
+}
+
 
 /* media query*/
 
@@ -251,5 +281,33 @@ input {
     #left-text-block, #right-text-block {
         font-size: 80%;
     }
+
+    #body-content {
+        border: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    #content-block1 img, #content-block2 img, #content-block3 img {
+        width: 70%;
+        height: auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    #content-block1 p, #content-block2 p, #content-block3 p {
+        font-size: 100%;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 560px){
+    
+    #content-block1 img, #content-block2 img, #content-block3 img {
+       float: none;
+    }
+
 }
 
