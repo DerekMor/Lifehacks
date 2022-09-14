@@ -80,6 +80,8 @@ header h1 {
     padding: 2px 2px 2px 2px;
     font-weight: 600;
     font-size: 120%;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
 }
 
 #right-text-block {
@@ -91,6 +93,7 @@ header h1 {
     padding: 2px 2px 2px 2px;
     font-weight: 600;
     font-size: 120%;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 #bottom-text-block {
@@ -103,6 +106,7 @@ header h1 {
     padding: 2px 2px 2px 2px;
     font-weight: 600;
     font-size: 120%;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 /* footer */
@@ -147,11 +151,11 @@ footer {
     background: url(../images/productivity.avif) no-repeat center center;
     display: block;
     text-align: center;
-    filter: brightness(60%);
 }
 
 #prod-img form {
-    filter: brightness(100%);
+    font-size: 120%;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 form {
@@ -171,6 +175,33 @@ label {
 
 input {
     display: block;
+}
+
+#submit-button {
+    text-align: center;
+    outline: none;
+    background-color: #fafafa;
+    color: #1a2930;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#submit-button:hover {
+    background-color: #1a2930;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+/* Todays Hack */
+
+#body-content {
+    height: 600px;
+    border: 10px solid #1a2930;
 }
 
 /* media query*/
