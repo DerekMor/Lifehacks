@@ -12,7 +12,8 @@ body {
     font-family: "source sans pro", serif;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: "libre franklin", serif;
 }
 
@@ -62,7 +63,7 @@ header h1 {
     position: relative;
 }
 
-#main-img > img {
+#main-img>img {
     width: 100%;
     height: auto;
     filter: grayscale(60%);
@@ -137,7 +138,7 @@ footer {
     color: inherit;
 }
 
-/* sign up */
+/* sign up page*/
 
 #img-container {
     width: 100%;
@@ -197,7 +198,7 @@ input {
     cursor: pointer;
 }
 
-/* Todays Hack */
+/* Todays Hack Page*/
 
 #body-content {
     height: fit-content;
@@ -206,7 +207,8 @@ input {
     padding: 50px;
 }
 
-#content-block1 img, #content-block3 img {
+#content-block1 img,
+#content-block3 img {
     height: 200px;
     width: auto;
     float: left;
@@ -214,7 +216,9 @@ input {
     padding-top: 5px;
 }
 
-#content-block1 p, #content-block2 p, #content-block3 p {
+#content-block1 p,
+#content-block2 p,
+#content-block3 p {
     font-size: 150%;
 }
 
@@ -226,7 +230,8 @@ input {
     padding-top: 5px;
 }
 
-h2, h3 {
+h2,
+h3 {
     clear: both;
     text-align: center;
     padding-top: 15px;
@@ -258,7 +263,8 @@ h2, h3 {
         line-height: 50px;
     }
 
-    #left-text-block, #right-text-block {
+    #left-text-block,
+    #right-text-block {
         font-size: 100%;
     }
 
@@ -285,9 +291,11 @@ h2, h3 {
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
 
-    #left-text-block, #right-text-block, #bottom-text-block {
+    #left-text-block,
+    #right-text-block,
+    #bottom-text-block {
         font-size: 80%;
     }
 
@@ -297,14 +305,18 @@ h2, h3 {
         text-align: center;
     }
 
-    #content-block1 img, #content-block2 img, #content-block3 img {
+    #content-block1 img,
+    #content-block2 img,
+    #content-block3 img {
         width: 70%;
         height: auto;
         text-align: center;
         padding: 0;
     }
 
-    #content-block1 p, #content-block2 p, #content-block3 p {
+    #content-block1 p,
+    #content-block2 p,
+    #content-block3 p {
         font-size: 100%;
         width: 70%;
         margin-left: auto;
@@ -312,28 +324,32 @@ h2, h3 {
     }
 }
 
-@media screen and (max-width: 560px){
-    
-    #content-block1 img, #content-block2 img, #content-block3 img {
-       float: none;
+@media screen and (max-width: 560px) {
+
+    #content-block1 img,
+    #content-block2 img,
+    #content-block3 img {
+        float: none;
     }
 
 }
 
-@media screen  and (max-width: 350px){
-    
+@media screen and (max-width: 350px) {
+
     .social-networks li {
-    font-size: 30px ;
-    display: inline;
-    text-align: center;
-    padding: 2%;
+        font-size: 30px;
+        display: inline;
+        text-align: center;
+        padding: 2%;
     }
 
     footer {
         text-align: center;
     }
 
-    #bottom-text-block, #left-text-block, #right-text-block {
+    #bottom-text-block,
+    #left-text-block,
+    #right-text-block {
         width: 70%;
         display: inline-block;
         color: #1a2930;
