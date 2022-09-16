@@ -271,7 +271,6 @@ h2, h3 {
         width: 50%;
         text-align: center;
         padding: 2px 2px 2px 2px;
-        font-weight: 0;
         text-shadow: none;
         padding-bottom: 15px;
     }
@@ -343,7 +342,6 @@ h2, h3 {
         right: 15%;
         text-align: center;
         padding: 2px 2px 2px 2px;
-        font-weight: 0;
         text-shadow: none;
     }
 }
